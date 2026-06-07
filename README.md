@@ -30,31 +30,6 @@ Develop an intelligent payment collection agent that can:
 
 ---
 
-## Architecture
-
-```text
-User
- │
- ▼
-LangGraph Workflow
- │
- ├── Extraction Node
- │
- ├── Account Lookup Tool
- │
- ├── Verification Node
- │
- ├── Amount Collection Node
- │
- ├── Card Collection Node
- │
- ├── Payment Processing Tool
- │
- └── Completion Node
-```
-
----
-
 ## Project Structure
 
 ```text
