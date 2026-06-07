@@ -1,0 +1,18 @@
+[project]
+name = "payment-collection-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.136.3",
+    "ipykernel>=7.2.0",
+    "langchain>=1.3.4",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.4.1",
+    "langchain-groq>=1.1.2",
+    "langgraph>=1.2.4",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.49.0",
+]
